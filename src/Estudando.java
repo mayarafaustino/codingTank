@@ -18,21 +18,7 @@ public class Estudando {
 
         //----------------------------------
 
-        Scanner entrada = new Scanner(System.in);
 
-        while (true) {
-            System.out.printf("Entre com um número inteiro qualquer: ");
-            String linha = entrada.nextLine(); // ler a linha (termina no enter)
-
-            try{
-                int inteiro = Integer.parseInt(linha); // (tenta converter pra int os dados inseridos)
-                System.out.printf("Eis a aberração: %d\n", inteiro);
-            }
-
-            catch(Exception e){
-                System.out.printf("Você não digitou um número inteiro!\n");
-            }
-        }
 
 
 
